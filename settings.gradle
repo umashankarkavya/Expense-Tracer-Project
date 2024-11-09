@@ -1,0 +1,19 @@
+// settings.gradle
+
+pluginManagement {
+    repositories {
+        google()         // Google's Maven repository
+        mavenCentral()   // Maven Central repository
+    }
+}
+
+dependencyResolutionManagement {
+    repositories {
+        google()         // Google's Maven repository for dependencies
+        mavenCentral()   // Maven Central repository
+    }
+}
+
+// Include modules
+include ':app'   // Add any other modules here, for example:
+// include ':libraryModule', ':featureModule'
